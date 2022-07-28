@@ -1,0 +1,26 @@
+.overly-img {
+    filter: brightness(30%);
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+    .carousel-caption {
+        margin-top: 50px;
+    }
+
+    .carousel-caption h2 {
+        margin-bottom: 0;
+        font-size: 20px;
+    }
+
+    .carousel-caption p {
+        margin-bottom: 0;
+        font-size: 12px;
+    }
+
+    .carousel-caption button {
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {}
